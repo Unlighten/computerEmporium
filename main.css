@@ -223,8 +223,8 @@ body{
 	color: orange;
 }
 
-.Maintenance { /* something in your text box was making it so you couldn't type inside of it, which was floating center instead of left. */
-	float: left;
+/* .Maintenance */ { /* something in your text box was making it so you couldn't type inside of it, which was floating center instead of left. */
+/*	float: left;
 	height:620px;
 	margin-left: 30%;
 	margin-bottom: 5%;
@@ -235,9 +235,9 @@ body{
 	position: relative;
 	background-image: url("http://www.powerpointhintergrund.com/uploads/white-wood-ppt-template-21.jpeg");
 	border-radius: 10%;
-}
+} */
 
-.header4{
+/* .header4{
 	text-align: center; 
 	font-family: times; 
 	font-size: 50px;
@@ -247,7 +247,7 @@ body{
 	margin-right: 5%;
 	border: 2px solid grey;
 	border-radius: 1em;
-}
+} */
 
 /* .header1-id p a:hover{
     -webkit-filter: blur(5px);
