@@ -1,0 +1,239 @@
+/*p {
+	commment
+}*/
+
+body{
+	background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Clouds_%285%29.jpg/1600px-Clouds_%285%29.jpg"); 
+	background-size: 225%;
+}
+
+.ComputerEmporium{
+	text-align: center; 
+	font-family: Times; 
+	font-size: 55px; 
+	border: 2px solid white;
+	background-image: url(http://i.makeagif.com/media/11-17-2015/Fz90sX.gif);
+	background-size: 100%;
+}
+
+.Monitors {
+	margin-left: 5%;
+	float: left;
+	width:250px;
+	height:600px;
+	border: 3px solid grey;
+	background-image: url("http://www.powerpointhintergrund.com/uploads/white-wood-ppt-template-21.jpeg");
+}
+
+.Cases{
+	margin-right: 5%;
+	float: right;
+	width:250px;
+	height:600px;
+	border:3px solid grey;
+	background-color: white;
+	background-image: url("http://www.powerpointhintergrund.com/uploads/white-wood-ppt-template-21.jpeg");
+}
+
+.Box1 {
+	float: left;
+	height:300px;
+	margin-left: 5%;
+	/*padding-bottom: 20%;*/
+	border: 3px solid grey;
+	border-radius: 1em;
+	width: 300px;
+	top: 0px;
+	left: 0px;
+	position: relative;
+	background-color: white;
+}
+
+.Box2 {
+	float: left;
+	right: 0px;
+	height:300px;
+	width: 300px;
+	margin-left: 50px;
+	top: 40px;
+	border: 3px solid grey;
+	border-radius: 1em;
+	/*position: relative;*/
+	background-color: white;
+}
+
+.Box3 {
+	float: left;
+	right: 0px;
+	height:300px;
+	width: 300px;
+	margin-left: 75.3px;
+	top: 76px;
+	border: 3px solid grey;
+	border-radius: 1em;
+	/*position: relative;*/
+	background-color: white;
+}
+
+.Box4 {
+	float: left;
+	right: 0px;
+	height:300px;
+	width: 300px;
+	margin-left: 50px;
+	top: 80px;
+	border: 3px solid grey;
+	border-radius: 1em;
+	/*position: relative;*/
+	background-color: white;
+}
+
+
+.item1 , .item2 {
+	left: 1px;
+	top: 0px;
+	position: relative;
+}
+
+
+.item3 {
+	left: 142px;
+	top: -218px;
+	position: relative;
+}
+
+.item4 {
+	left: 120px;
+	top: -240px;
+	position: relative;
+}
+
+.item3-storageDevice-adjusted {
+	left: 136px;
+	top: -218px;
+	position: relative;
+}
+
+
+.item4-storageDevice-adjusted {
+	left: 135px;
+	top: -225px;
+	position: relative;
+}
+
+.item4-processor-adjusted {
+	left: 160px;
+	top: -215px;
+	position: relative;
+}
+
+.item1-powerSupply-adjusted{
+	left: 5px;
+	top: 30px;
+	position: relative;
+}
+.item2-powerSupply-adjusted {
+	left: 145px;
+	top: -120px;
+	position: relative;
+}
+
+.bigBox {
+	width:200px; 
+	height: 510px;
+	border:3px solid grey; 
+	background-color: lightblue;
+}
+
+.header1{
+	text-align: center; 
+	font-family: times;
+	font-size: 20px; 
+	background-color: lightblue;
+	border: 2px solid grey;
+}
+
+.header2{
+	text-align: center; 
+	font-family: times; 
+	font-size: 18px;
+	border: 2px solid grey;
+	background-color: lightblue;
+}
+
+.header3{
+	text-align: center; 
+	font-family: times; 
+	font-size: 28.5px;
+	background-color: lightblue;
+	margin-top: 5%;
+	margin-left: 5%;
+	margin-right: 5%;
+	border: 2px solid grey;
+	border-radius: 1em;
+}
+
+.ThankYou {
+	float: center;
+	height:160px;
+	margin-left: 42%;
+	margin-bottom: 5%;
+	border: 3px solid grey;
+	border-radius: 10%;
+	width: 225px;
+	top: 725px;
+	left: 0px;
+	position: relative;
+	background-image: url('https://media0.giphy.com/media/Z3S5NlK516GgU/giphy.gif');
+}
+
+.Text-Box1 { /* something in your text box was making it so you couldn't type inside of it, which was floating center instead of left. */
+	float: left;
+	height:320px;
+	margin-left: 5%;
+	margin-bottom: 5%;
+	border: 3px solid grey;
+	width: 450px;
+	top: 118px;
+	left: 0px;
+	position: relative;
+	border-radius: 10%;
+	background-image: url("http://www.powerpointhintergrund.com/uploads/white-wood-ppt-template-21.jpeg");
+}
+
+.Text-Box2 { /* something in your text box was making it so you couldn't type inside of it, which was floating center instead of left. */
+	float: left;
+	height:320px;
+	margin-left: 30%;
+	margin-bottom: 5%;
+	border: 3px solid grey;
+	width: 450px;
+	top: 118px;
+	left: 0px;
+	position: relative;
+	background-image: url("http://www.powerpointhintergrund.com/uploads/white-wood-ppt-template-21.jpeg");
+	border-radius: 10%;
+}
+
+.Text-Box1 p a:hover{
+	color: orange;
+}
+
+.Text-Box2 p a:hover{
+	color: orange;
+}
+
+/* .header1-id p a:hover{
+    -webkit-filter: blur(5px);
+    filter: blur(5px);
+} */
+
+
+/* .Creator { 
+	float: center;
+	height:50px;
+	width: 200px;
+	top: -50px;
+	left: 662px;
+	position: relative;
+} */
