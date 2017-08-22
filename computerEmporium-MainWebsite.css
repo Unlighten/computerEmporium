@@ -1,0 +1,40 @@
+.navbar-brand {
+  color: blue !important;
+  font-weight: bold !important;
+  background-color: lightgrey !important;
+  font-size: 2em !important;
+  font-family: times !important;
+}
+
+.navbar {
+	font-weight: bold;
+}
+
+body {
+	background-image: url("https://markleisherproductions.com/wp-content/uploads/2015/10/grey-website-background-illusionapparel2-980x613.jpg");
+}
+
+.box {
+	height: 325px;
+	width: 100%;
+	border: 2px solid #000;
+	margin-top: -5%;
+	margin-bottom: 10%;
+	padding: 10%;
+	padding-bottom: -1em;
+	text-align: center;
+	font-weight: bold;
+	font-size: 1.5em;
+	background-image: url("http://radi8creative.com/wp-content/uploads/grey_bg.jpg");
+	color: blue;
+}
+
+.row {
+	padding: 1.8em;
+}
+
+.row img {
+	border: 2px solid #000;
+	height: 85%;
+	width: 100%;
+}

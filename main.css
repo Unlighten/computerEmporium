@@ -223,6 +223,10 @@ body{
 	color: orange;
 }
 
+ #picture1:hover {
+ 	opacity: 0.7;
+ }
+
 /* .Maintenance */ { /* something in your text box was making it so you couldn't type inside of it, which was floating center instead of left. */
 /*	float: left;
 	height:620px;
