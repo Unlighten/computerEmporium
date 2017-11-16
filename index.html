@@ -5,58 +5,59 @@
 		<meta name="viewport" content="width=device-width, inital-scale=1">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 		<link rel="stylesheet" type="text/css" href="index.css">
-		<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	</head>
-
 	<body>
-	<nav class="navbar navbar-default">
-		  	<div class="container-fluid">
-		    	<div class="navbar-header">
-		     		 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-		        	 <span class="sr-only">Toggle navigation</span>
-		     		 </button>
-		     		 <a class="navbar-brand" href="#">Computer Emporium</a>
-		   		 </div>
+			<nav class="navbar navbar-default">
+					<div class="container-fluid">
+					  <div class="navbar-header">
+						  <a class="navbar-brand" routerLink='/home'>
+							  <img src="http://computeremporiuminc.com/wp-content/uploads/cei_logo_retina.png" alt="Lanes Luress">
+						  </a>
+						  <div class="dropdown" style="margin-top: 8px;">
+							  <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+								  <i class="fa fa-bars" aria-hidden="true" style="height:18px"></i>
+							  </button>
+							  <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+								<li><a routerLink='/checkout' class="dropitem">View Cart</a></li>
+								<li><a routerLink='/about' class="dropitem">About Us</a></li>
+								<li><a routerLink='/contact' class="dropitem">Contact Us</a></li>
+								<li><a routerLink='/help' class="dropitem">Help</a></li>
+							  </ul>
+							</div>
+					  </div>
+					</div>
+				  </nav>
 
-		    	<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-		      		<ul class="nav navbar-nav">
-		        		<li class="active"><a href="#">About Us <span class="sr-only">(current)</span></a></li>
-		        		<li><a href="#">Product Review</a></li>
-		      		</ul>
+					<div class="banner"><h1>Welcome to Computer Emporium!</h1></div>
 
-		     		<ul class="nav navbar-nav navbar-right">
-		       			<li class="dropdown">
-			          		<a class="dropdown-toggle" data-toggle="dropdown" href="#">Price Compare<span class="caret"></span></a>
-
-			          		<ul class="dropdown-menu">
-					            <li><a href="https://www.ebay.com/">Ebay</a></li>
-					            <li><a href="http://frys.com/">Frys</a></li>
-					            <li><a href="https://www.bestbuy.com/?ref=30&loc=KW-4327&ksid=74ed3f10-d111-4eda-834f-61d9155e8edf&ksprof_id=3&ksaffcode=74148&ksdevice=c&gclid=CjwKEAjw8vnMBRDg2ff6wpS66RQSJAApvwYSkDq7SlY7UDmlyqPCFX-U3OrU_-1Hiv2VL15_Pjk_6xoCJf3w_wcB">Best Buy</a></li>
-					            <li><a href="https://www.newegg.com/?nm_mc=KNC-GoogleKWLess&cm_mmc=KNC-GoogleKWLess-_-Branding-_-Main-_-Newegg&gclid=Cj0KCQjw8vnMBRDgARIsACm_BhJ4W8cyYJPiVhirpXA3kbfYb8-pv5s7ZqxFeW_DxWd9rF-mYp4W3esaAseXEALw_wcB&gclsrc=aw.ds">Newegg</a></li>
-			         		</ul>
-		        		</li>
-		      		</ul>
-		   		</div>
-		  	</div>
-		</nav>
-
-		<div class="container">
-			<div class="row col-md-4">
-				<div class="box">Cases<a href="https://www.amazon.com/s/ref=nb_sb_noss_2?url=search-alias%3Daps&field-keywords=computer+cases&rh=i%3Aaps%2Ck%3Acomputer+cases"><img src="./img/shopping (2).jpg"></a></div>
-				<div class="box">Monitors<a href="https://www.amazon.com/s/ref=nb_sb_noss_2?url=search-alias%3Daps&field-keywords=computer+cases&rh=i%3Aaps%2Ck%3Acomputer+cases"><img src="./img/shopping.jpg"></a></div>
-				<div class="box">Processors<a href="https://www.amazon.com/s/ref=nb_sb_noss_2?url=search-alias%3Daps&field-keywords=computer+cases&rh=i%3Aaps%2Ck%3Acomputer+cases"><img src="./img/19-117-795-S05 (1).jpg"></a></div>
-			</div>
-			<div class="row col-md-4">
-				<div class="box">GPUs<a href="https://www.amazon.com/s/ref=nb_sb_noss_2?url=search-alias%3Daps&field-keywords=computer+cases&rh=i%3Aaps%2Ck%3Acomputer+cases"><img src="./img/81Yj5yvjwHL._SL1200_.jpg"></a></div>
-				<div class="box">Build of the Month<a href="http://www.mmo-champion.com/build-of-the-month/"><img src="./img/MMO-Champion_logo.1.png"></a></div>
-				<div class="box">RAM<a href="https://www.amazon.com/s/ref=nb_sb_noss_2?url=search-alias%3Daps&field-keywords=computer+cases&rh=i%3Aaps%2Ck%3Acomputer+cases"><img src="./img/714rDqlTX6L._SL1500_.jpg"></a></div>
-			</div>
-			<div class="row col-md-4">
-				<div class="box">Motherboards<a href="https://www.amazon.com/s/ref=nb_sb_noss_2?url=search-alias%3Daps&field-keywords=computer+cases&rh=i%3Aaps%2Ck%3Acomputer+cases"><img src="./img/13-132-976-V01.jpg"></a></div>
-				<div class="box">Storage Devices<a href="https://www.amazon.com/s/ref=nb_sb_noss_2?url=search-alias%3Daps&field-keywords=computer+cases&rh=i%3Aaps%2Ck%3Acomputer+cases"><img src="./img/613pry4JU9L._SL1000_.jpg"></a></div>
-				<div class="box">Power Supplies<a href="https://www.amazon.com/s/ref=nb_sb_noss_2?url=search-alias%3Daps&field-keywords=computer+cases&rh=i%3Aaps%2Ck%3Acomputer+cases"><img src="https://images.techhive.com/images/article/2013/01/standard-psu-100021930-large.jpg"></a></div>
-			</div>
-		</div>
+					<div class="titletext"><h1>Our Products</h1></div>
+					
+				  <div class="container">
+						<div><img src="https://goo.gl/ve4kyR" alt></div>
+						<div><img src="https://goo.gl/ve4kyR" alt></div>
+						<div><img src="https://goo.gl/ve4kyR" alt></div>
+						<div><img src="https://goo.gl/ve4kyR" alt></div>
+						<div><img src="https://goo.gl/ve4kyR" alt></div>
+						<div><img src="https://goo.gl/ve4kyR" alt></div>
+						<div><img src="https://goo.gl/ve4kyR" alt></div>
+						<div><img src="https://goo.gl/ve4kyR" alt></div>
+						<div><img style="margin-bottom: 100px;" src="https://goo.gl/ve4kyR" alt></div>
+					</div>
+				
+					
+					<footer class="footer">
+						<div class="row" style="text-align: center;">
+									<div class="col-md-12">
+											<a href="https://facebook.com"><img class="footerLinks" src="https://www.seeklogo.net/wp-content/uploads/2016/09/facebook-icon-preview-200x200.png"></a>
+											<a href="https://twitter.com"><img class="footerLinks" src="http://vectorlogo4u.com/wp-content/uploads/2016/06/twitter-icon-vector.png"></a>
+											<a href="https://instagram.com"><img class="footerLinks" style="height: 30px;" src="https://instagram-brand.com/wp-content/themes/ig-branding/assets/images/ig-logo-email.png"></a>
+									</div>
+							</div>
+					</footer>
+					
 	</body>
+
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </html>
